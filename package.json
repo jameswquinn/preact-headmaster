@@ -1,1 +1,28 @@
-placeholder
+{
+  "name": "preact-headmaster",
+  "version": "1.0.0",
+  "description": "A lightweight and efficient head management library for Preact applications",
+  "main": "dist/preact-headmaster.umd.js",
+  "module": "dist/preact-headmaster.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["preact", "head", "management", "seo"],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "preact": "^10.0.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.1"
+  }
+}
